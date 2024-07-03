@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+.nav #show:hover {
+  scale: 2.2;
+  background-color: white;
+}
+.container .btn {
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  margin: 10px;
+}
+ion-icon {
+  color: white;
+}
+.thumb,
+.bell,
+.subscribe {
+  color: rgb(59, 59, 59);
+}
+.add {
+  color: rgb(52, 125, 250);
+}
+.subscribe {
+  font-size: 19px;
+  color: rgb(30, 100, 240);
+}
+.bgColor {
+  background: white;
+  color: red;
+}
+.btn:hover {
+  background: rgb(242, 245, 244);
+  color: red;
+}
